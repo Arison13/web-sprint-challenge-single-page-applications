@@ -1,0 +1,48 @@
+form {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.title{
+    text-align: center;
+    color:red;
+    border: 1px solid black;
+    width: 100%;
+}
+p {
+    background-color: rgba(164, 166, 167, 0.7);
+}
+p span{
+    display: table;
+}
+span{
+    color: red;
+    text-decoration: underline;
+}
+label {
+    font-size: 18px;
+}
+
+input {
+    display: block;
+    margin: 5px;
+    width: 100px;
+    
+}
+
+.toppings {
+    display: flex;
+    flex-flow: row;
+}
+
+select{
+    margin: 5px;
+    width:100px;
+}
+
+.special {
+    width:70%; height: 10vh;
+    margin: auto;
+}
